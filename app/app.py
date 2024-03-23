@@ -255,4 +255,4 @@ if predict_button:
 
 st.write('\n')
 about = st.expander('More about app')
-about.write("https://github.com/vikramnayyar/Customer-Identification-for-Bank-Marketing/blob/main/README.md")
+about.write("https://github.com/Varshitha-Neelapu/Bank/blob/main/README.md")
