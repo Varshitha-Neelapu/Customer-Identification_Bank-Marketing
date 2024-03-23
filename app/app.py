@@ -13,6 +13,14 @@ df = pd.read_csv("data/bank.csv")
 
 st.title('Deposit Prediction for Bank Marketing Campaign')
 
+# Sidebar for EDA and Dataset
+st.sidebar.write("""
+    [Exploratory Data Analysis](https://github.com/Varshitha-Neelapu/Bank-Marketing/edit/main/Bank_Marketing_with_ML.ipynb)
+""")
+st.sidebar.write("""
+    [Dataset](https://archive.ics.uci.edu/static/public/222/bank+marketing.zip)
+""")
+
 st.write("This app is based on 16 inputs that predict wheather a customer will deposit or not? Using this app, a bank can identify specific customer segments; that will make deposits.")
 st.write("Please use the following form to get started!")
 st.markdown('<p class="big-font">(NOTE: For convinience, usual values are pre-selected in the form.)</p>', unsafe_allow_html=True)
